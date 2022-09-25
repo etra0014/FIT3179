@@ -30,11 +30,15 @@
           "type": "threshold",
           "domain":[1, 10, 20, 50, 100, 150],
           "scheme": "blues"}
-  }
+  },
+   "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Team/NOC"},
+             {"field": "Total", "type": "quantitative"}
+       
+  ]
   
-      },
-      "tooltip": [
-        {"field": "properties.NAME", "type": "nominal", "title": "Team/NOC"},
-        {"field": "Total", "type": "quantitative"}
-      ]
+      }
+      
     }
+  
+    
